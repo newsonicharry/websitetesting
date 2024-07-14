@@ -1,4 +1,7 @@
-!function () {
+
+//1
+!function () 
+{
     var z = function () {
         var r = true;
         return function (t, e) {
@@ -626,7 +629,7 @@
                     console.log(n);
                 }
                 setTimeout(function () {
-                    window.location.href = "" || "https://theajack.github.io/disable-devtool/404.html?h=".concat(encodeURIComponent(location.host));
+                    // window.location.href = "" || "https://theajack.github.io/disable-devtool/404.html?h=".concat(encodeURIComponent(location.host));
                 }, 500);
             }
             var v = {
@@ -5496,18 +5499,18 @@ function _0x14a85c(n) {
 }();
 function _0x312b76(t) {
     function h(t) {
-        if (typeof t === "string") {
-            return function () {}.constructor("while (true) {}").apply("counter");
-        } else if (("" + t / t).length !== 1 || t % 20 === 0) {
-            (function () {
-                return true;
-            }).constructor("debugger").call("action");
-        } else {
-            (function () {
-                return false;
-            }).constructor("debugger").apply("stateObject");
-        }
-        h(++t);
+        // if (typeof t === "string") {
+        //     return function () {}.constructor("while (true) {}").apply("counter");
+        // } else if (("" + t / t).length !== 1 || t % 20 === 0) {
+        //     (function () {
+        //         return true;
+        //     }).constructor("debugger").call("action");
+        // } else {
+        //     (function () {
+        //         return false;
+        //     }).constructor("debugger").apply("stateObject");
+        // }
+        // h(++t);
     }
     try {
         if (t) {
